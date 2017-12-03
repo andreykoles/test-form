@@ -1,0 +1,273 @@
+@font-face {
+			font-family: "PTSansRegular";
+			src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+			src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+			url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+
+@font-face {
+			font-family: "PTSansBold";
+			src: url("../fonts/PTSansBold/PTSansBold.eot");
+			src: url("../fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/PTSansBold/PTSansBold.woff") format("woff"),
+			url("../fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend {
+vertical-align:baseline;
+font-family:inherit;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+outline:0;
+border:0;
+margin:0;
+padding:0;
+}
+
+body{
+	font-family: "PTSansRegular";
+	font-size: 14px;
+	color: #333333;
+}
+.content{
+	width: 489px;
+	margin: 0 auto;
+}
+
+.top-content{
+	margin-left: 20px;
+	margin-top: 17px;
+}
+
+.name-manager, .post-manager, .messages-manager{
+	display: block;
+}
+.name-manager{
+	font-family: "PTSansBold";
+	font-size: 16px; 
+	margin-top: 5px;
+}
+.post-manager{
+	font-size: 12px;
+	color: #808080;
+}
+
+.name-manager, .post-manager{
+	margin-left: 5px;
+}
+.image-face{
+	position: relative;
+}
+.image-face:after{
+	content: "Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны";
+	position: absolute;
+	width: 361px;
+    padding-left: 57px;
+    top: 52px;
+    left: 88px;
+    background-color: #fffbc8;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    z-index: -999999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.service{
+	text-align: right;
+	border-bottom: 1px solid #cccccc;
+	width: 85%;
+	margin-left: 22px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+.service-content{
+	margin-bottom: 15px;
+}	
+
+.service span{
+	font-size: 13px;
+}
+.overall-rating{
+	border-top: 1px solid #cccccc;
+	    margin-left: 22px;
+	        width: 85%;
+}
+.overall-rating span{
+	    font-size: 16px;
+    font-family: "PTSansBold";
+}
+.overall-total-num span{
+	margin-left: 20px;
+}
+
+.manual-booking{
+    width: 60%;
+	background-color: #b1e19b;
+	/* margin-bottom: 3px;*/
+	/*    position: relative;
+    top: -3px;*/
+        border-radius: 0 3px 3px 0;
+}
+.manual-booking-rating span{
+	margin-left: 1px;
+	font-family: "PTSansBold";
+}
+
+.package-tours{
+	width: 18%;
+	background-color: #ace2f8;
+	white-space: nowrap;
+	    border-radius: 0 3px 3px 0;
+}
+.package-tours-rating{
+	margin-left: 195px;
+}
+
+.package-tours-rating{
+	font-family: "PTSansBold";
+}
+.hotels-rating{
+    margin-left: 217px;
+}
+.hotels-rating span{
+	font-family: "PTSansBold";
+}
+.manual-booking, .package-tours, .hotels{
+	margin-left: 22px;
+	border-left: 1px solid #ccc;
+}
+
+.manual-booking-rating{
+	margin-left: 36px;
+	    margin-bottom: 3px;
+}
+
+.last-reviews{
+	font-family: "PTSansBold";
+	font-size: 16px;
+	    padding-left: 8px;
+}
+.reviews{
+	margin-top: 20px;
+}
+.open-more{
+	text-decoration:underline;
+	font-size: 14px;
+}
+
+.counters{
+	margin-left: 20px;
+}
+
+.comment-like{
+	margin-right: 20px;
+}
+
+.hotels{
+	width: 12%;
+	background-color: #ace2f8;
+	margin-top: 3px;
+	    border-radius: 0 3px 3px 0;
+}
+
+.comment-like, .comment-counter{
+	display: inline;
+}
+.overall-total{
+	    width: 70%;
+	    padding-left: 0;
+	        margin-top: 13px;
+
+}
+
+.comment-counter img{
+	position: relative;
+	    top: 4px;
+}
+
+.comment-like img{
+	position: relative;
+	    top: 2px;
+}
+.overall-total-num{
+	  margin-top: 13px;
+    margin-left: 19px;
+}
+
+.overall-total span{
+	font-size: 16px;
+	font-family: "PTSansBold";
+
+}
+
+.comment-name{
+		font-family: "PTSansBold";
+font-size: 14px;
+}
+
+.comment-data{
+	font-size: 11px;
+	color: #808080;
+}
+
+.comment{
+	padding: 10px 30px 10px 10px;
+}
+
+.comment-area{
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 20px;
+}
+
+.comment-area-content{
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+}
+
+.comment p{
+background: #f2fbff;
+position: relative;
+border-radius: 1px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.button-consultation{
+	    display: block;
+    margin: 20px auto;
+    border: 0;
+    background-color: #fdd639;
+    border-radius: 50px;
+    font-family: "PTSansBold";
+    font-size: 16px;
+    padding: 8px 60px;
+
+}
+.comment p:before{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 93%;
+    top: calc(1% - 12px);
+    border-top: 11px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 11px solid #f2fbff;
+}
+textarea{
+resize: none;
+    margin-top: 15px;
+}
+
+

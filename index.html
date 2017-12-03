@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="content">
+		<div class="top-content">
+			<div class="row">
+				<div class="col-xs-3 image-face">
+					<img src="images/face.png" alt="">
+				</div>
+				<div class="col-xs-9 content-manager">
+					<span class="name-manager">Вероника Ростова</span>
+					<span class="post-manager">Менеджер по продажам</span>
+					<!-- <span class="messages-manager">Подберу для вас самые лучшие предложения.
+					Мои услуги абсолютно бесплатны</span> -->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-offset-3 col-xs-9 service-content">
+				<div class="col-sm-12 service">
+					<span>Услуг</span>
+				</div>
+				<div class="rating-services">
+					<div class="col-xs-10 manual-booking">
+						<span>Ручное бронирование</span>
+					</div>
+					<div class="col-xs-2 manual-booking-rating">
+						<span>11</span>
+					</div>
+					<div class="col-xs-10 package-tours">
+						<span>Пакетные туры</span>
+					</div>
+					<div class="col-xs-2 package-tours-rating">
+						<span>3</span>
+					</div>
+					<div class="col-xs-10 hotels">
+						<span>Отели</span>
+					</div>
+					<div class="col-xs-2 hotels-rating">
+						<span>1</span>
+					</div>
+				</div>
+
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col-xs-offset-3 col-xs-9">
+				<div class="overall-rating">
+					<div class="col-xs-10 overall-total">
+						<span>Всего</span>
+					</div>
+					<div class="col-xs-2 overall-total-num" >
+						<span>15</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row reviews">
+			<div class="col-xs-4">
+				<span class="last-reviews">Последние отзывы</span>
+			</div>
+			<div class="col-xs-4">
+				<a class="open-more" href="javascript:void(0);">Все отзывы</a> 
+			</div>
+			<div class="col-xs-4">
+				<div class="counters">
+					<div class="comment-like">
+						<img src="images/like.png" alt="">
+						<span id="comment-like-num">131</span>
+					</div>
+					<div class="comment-counter">
+						<img src="images/comment.png" alt="">
+						<span id="comment-count">4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="comments" class="comment-items">
+			<div class="comment">
+				<span class="comment-name">Самуил</span>
+				<span class="comment-data">13 октября 2011</span>
+				<p>Привет, Верунь! ниче себе ты крутая. фото</p>
+			</div>
+			<div class="comment">
+				<span class="comment-name">Лилия Семёновна</span>
+				<span class="comment-data">14 октября 2011</span>
+				<p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+			</div>
+			<div class="comment">
+				<span class="comment-name">Лилия Семёновна</span>
+				<span class="comment-data">14 октября 2011</span>
+				<p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+			</div>
+			<div class="comment" style="display: none;">
+				<span class="comment-name">Лилия Семёновна</span>
+				<span class="comment-data">14 октября 2011</span>
+				<p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="comment-area-content">
+		<div class="content">
+			<div class="comment-area">
+				<input type="text" id="new-name" name="name" placeholder="Имя">
+
+				<textarea id="new-comment" name="comment" cols="61" rows="5"></textarea>
+			</div>
+			<button class="button-consultation" id="add_comment">Написать консультанту</button>
+		</div>
+	</div>				
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/date.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
