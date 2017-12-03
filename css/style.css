@@ -251,6 +251,7 @@ border-radius: 1px;
     font-family: "PTSansBold";
     font-size: 16px;
     padding: 8px 60px;
+        margin-right: 113px;
 
 }
 .comment p:before{
@@ -259,7 +260,7 @@ border-radius: 1px;
     height: 0;
     position: absolute;
     right: 93%;
-    top: calc(1% - 12px);
+    top: calc(0% - 11px);
     border-top: 11px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 0px solid transparent;
